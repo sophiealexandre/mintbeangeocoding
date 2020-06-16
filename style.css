@@ -1,0 +1,52 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+
+
+body { margin: 0; padding: 0;
+      font-family: "Open Sans", "Helvetica", "sans-serif";
+      text-align: center;
+      font-size: 20px;
+        color: white;
+        opacity: .7;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+     }
+         #map { position: absolute; top: 50%; }
+
+}
+}
+
+h1 {
+  font-family: "Raleway", "Helvetica", "sans-serif";
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+
+}
+
+.masthead {
+  background-image: url('https://images.unsplash.com/photo-1454391304352-2bf4678b1a7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+}
+
+
+.btn-gradient {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+}
+
+
