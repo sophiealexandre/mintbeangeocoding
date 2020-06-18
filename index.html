@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Mapbox MintBean</title>
-  <link rel="stylesheet" href="./style.css">
-  <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
-
-</head>
-
-<body>
-  <div class="masthead">
-    <h1>Need a holiday?</h1>
-    <p>Can't leave Canada due to the Covid? We will find you a place to go within our borders!</p>
-    <div id="myDIV">
-       <a class="btn btn-gradient" onclick="myFunction()">Start now</a>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mapbox MintBean</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div class=row >
+      <div class="masthead">
+        <h1>Need a holiday?</h1>
+        <p>Can't leave Canada due to the Covid? We will find you a place to go within our borders!</p>
+        <div id="myDIV">
+          <a class="btn btn-gradient" onclick="myFunction()">Start now</a>
+        </div>
+        <p id="demo"></p>
+        <div id= "myDIV2" style="visibility:hidden;">
+          <a class="btn btn-gradient" onclick="myArray()"> Roll the dice!</a>
+        </div>
+        <p id="city"></p>
+      </div>
     </div>
-    <p id="demo"></p>
 
-    <div id= "myDIV2" style="visibility:hidden;">
-       <a class="btn btn-gradient" onclick="myArray()"> Roll the dice!</a>
-    </div>
-    <p id="city"></p>
-    </div>
-  </div>
+<div class=row>
+        <div id="map" style="width: 100%; height: 50vh"></div>
 
-    <div id="map" style="width: 100%; height: 400px"></div>
-
-<!-- partial:index.partial.html -->
-<script src="https://unpkg.com/es6-promise@4.2.4/dist/es6-promise.auto.min.js"></script>
-<script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
-
-
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
+</div>
+    <!-- partial:index.partial.html -->
+    <script src="https://unpkg.com/es6-promise@4.2.4/dist/es6-promise.auto.min.js"></script>
+    <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
+    <!-- partial -->
+    <script  src="./script.js"></script>
+  </body>
 </html>
